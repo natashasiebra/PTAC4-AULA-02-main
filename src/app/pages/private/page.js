@@ -6,7 +6,7 @@ export default function PagePrivate() {
         const { push, refresh } = useRouter();
         const handlerRemoveToken = () => {
           Cookies.set('token', 'ceceeecwfewcewe');
-          push('../');
+          push('./login');
           refresh();
         };
    
